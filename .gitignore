@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+nohup.out
+logs
+.snakemake
+Thumbs.db
+.DS_Store
+.git
+
