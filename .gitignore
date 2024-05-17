@@ -1,18 +1,36 @@
-.ipynb_checkpoints
-nohup.out
-logs
-data
-annotation
-.snakemake
-Thumbs.db
-.DS_Store
-.git
-__pycache__
-out
-.png
-scafe
-figs
-.pdf
-zz_old
-zz_unused
-tables
+# Ignore everything
+*
+
+# Ignore subdirectories, but not their files
+!*/
+
+# But not these files...
+!.gitignore
+!*.py
+!*.ipynb
+!*.Rmd
+!*.R
+!*.r
+!*.pl
+!*.sh
+!*.smk
+!*.md
+
+# Ignore directories
+.ipynb_checkpoints/
+.git/
+.snakemake/
+.DS_Store/
+.git/
+__pycache__/
+logs/
+
+# Project specific
+data/
+out/
+scafe/
+figs/
+tables/
+11_ldsc/
+zz_old/
+zz_unused/
